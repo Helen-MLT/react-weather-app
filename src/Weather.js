@@ -11,7 +11,6 @@ export default function Weather() {
               type="search"
               placeholder="Enter a city.."
               className="form-control"
-              rel="noreferrer"
             />
           </div>
           <div className="col-3">
