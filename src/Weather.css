@@ -1,12 +1,18 @@
 body {
   font-family: "DM Sans", serif;
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/150/238/original/mymind-XUlsF9LYeVk-unsplash_%281%29.jpg?1731516086);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: 50%;
+  background-position-y: 20%;
 }
 
 .Weather {
-  border: 1px solid #dadde1;
   padding: 16px;
   margin: 30px auto;
   border-radius: 20px;
+  background-color: #f4f4f485;
+  box-shadow: 10px 10px 19px #827e7e60;
 }
 
 .Weather form {
@@ -15,9 +21,9 @@ body {
 
 .Weather h1 {
   font-weight: 500;
-  margin: 20px 0 0 0;
+  margin: 30px 50px 0 0;
   color: #161613;
-  font-size: 32px;
+  font-size: 40px;
 }
 
 .Weather img {
@@ -38,14 +44,14 @@ body {
 .Weather .temperature {
   font-weight: 500;
   color: #161613;
-  font-size: 64px;
+  font-size: 100px;
   line-height: 64px;
 }
 
 .Weather .unit {
-  font-size: 16px;
+  font-size: 20px;
   position: relative;
-  top: -34px;
+  top: -55px;
   line-height: 1;
   margin-left: 5px;
 }
