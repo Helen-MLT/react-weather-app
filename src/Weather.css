@@ -1,6 +1,6 @@
 body {
   font-family: "DM Sans", serif;
-  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/150/238/original/mymind-XUlsF9LYeVk-unsplash_%281%29.jpg?1731516086);
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/150/447/original/vincent-maufay-rC3S-d7Qi_8-unsplash.jpg?1731668384);
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: 50%;
@@ -8,7 +8,7 @@ body {
 }
 
 .Weather {
-  padding: 16px;
+  padding: 30px;
   margin: 30px auto;
   border-radius: 20px;
   background-color: #f4f4f485;
@@ -17,6 +17,20 @@ body {
 
 .Weather form {
   margin-bottom: 20px;
+  border: none;
+}
+
+.Weather .form-control {
+  background-color: #f4f4f485;
+  border: none;
+  border-radius: 10px;
+}
+
+.Weather .btn {
+  background: #181818;
+  color: #f9f6ee;
+  border: none;
+  border-radius: 10px;
 }
 
 .Weather h1 {
@@ -32,7 +46,7 @@ body {
 }
 
 .Weather ul {
-  margin: 0;
+  margin-bottom: 30px;
   padding: 0;
 }
 
