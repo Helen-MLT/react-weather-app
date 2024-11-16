@@ -40,8 +40,8 @@ body {
   font-size: 40px;
 }
 
-.Weather img {
-  margin-right: 10px;
+.Weather canvas {
+  margin-right: 20px;
   display: inline-block;
 }
 
