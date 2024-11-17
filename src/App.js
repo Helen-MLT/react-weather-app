@@ -16,13 +16,21 @@ export default function App() {
           >
             Hélèna Milletti
           </a>{" "}
-          and is open-sourced on{" "}
+          is open-sourced on{" "}
           <a
             href="https://github.com/Helen-MLT/react-weather-app"
             target="_blank"
             rel="noreferrer"
           >
             Github
+          </a>{" "}
+          and is hosted on{" "}
+          <a
+            href="https://reactweatherbyhelen.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Netlify
           </a>
         </footer>
       </div>
